@@ -53,7 +53,7 @@ nav a:hover, nav a:focus-visible { border-bottom-color: var(--purple); }
 .hero::before, .hero::after {
   content: ""; position: absolute; background: var(--purple-mid); z-index: 0;
 }
-.hero::before { width: 260px; height: 520px; left: -130px; top: -120px; transform: skewX(-35deg); }
+.hero::before { width: 120px; height: 300px; left: -70px; top: -60px; transform: skewX(-35deg); }
 .hero::after { width: 300px; height: 520px; right: -150px; bottom: -200px; transform: skewX(-35deg); }
 .hero .wrap { position: relative; z-index: 1; display: grid; gap: 40px; grid-template-columns: minmax(0, 1fr); align-items: center; }
 .eyebrow { font-weight: 600; color: var(--purple); letter-spacing: .04em; text-transform: uppercase; font-size: .85rem; margin: 0 0 8px; }
